@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EAE7E7"
+    tools:context=".useraccount">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:background="@color/ty"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/baseline_account_24"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.051"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+        </ImageView>
+
+        <TextView
+            android:id="@+id/Username"
+            style="@android:style/TextAppearance"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="120dp"
+            android:layout_marginTop="70dp"
+            android:textSize="34sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"></TextView>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/bottomAppBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom"
+        android:elevation="20dp"
+        android:background="@color/ty"
+        android:backgroundTint="@color/ty"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <ImageView
+            android:id="@+id/home"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="80dp"
+            android:elevation="20dp"
+            android:hapticFeedbackEnabled="true"
+            android:onClick="Home"
+            android:src="@drawable/baseline_home_24" />
+
+        <ImageView
+            android:id="@+id/lms"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="165dp"
+            android:elevation="20dp"
+            android:onClick="lmsopen1"
+            android:src="@drawable/lms" />
+
+        <ImageView
+            android:id="@+id/account"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="250dp"
+            android:elevation="20dp"
+            android:src="@drawable/baseline_account_box_24" />
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#EAE7E7"
+        app:layout_constraintBottom_toTopOf="@+id/bottomAppBar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout"
+        app:layout_constraintVertical_bias="0.272">
+
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:background="#EAE7E7"
+            android:fontFamily="monospace"
+            android:paddingHorizontal="10dp"
+            android:text="User Center"
+            android:textColor="#F40000"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"></TextView>
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="#EAE7E7"
+            android:fontFamily="monospace"
+            android:paddingHorizontal="10dp"
+            android:text="More"
+            android:textColor="#FB0000"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/logout"></TextView>
+
+        <TextView
+            android:id="@+id/downloads"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:drawableStart="@drawable/baseline_download_24"
+            android:drawablePadding="10dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:gravity="center_vertical"
+            android:onClick="download"
+            android:text=" Downloads"
+            android:paddingStart="10dp"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+        <TextView
+            android:id="@+id/Changepassword"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:drawableStart="@drawable/baseline_published_with_changes_24"
+            android:drawablePadding="10dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:gravity="center_vertical"
+            android:onClick="changepassword"
+            android:text=" Change Password"
+            android:paddingStart="10dp"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="normal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/downloads" />
+
+        <TextView
+            android:id="@+id/support"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:drawableStart="@drawable/baseline_contact_support_24"
+            android:drawablePadding="10dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:gravity="center_vertical"
+            android:onClick="support"
+            android:text=" Support"
+            android:paddingStart="10dp"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+        <TextView
+            android:id="@+id/logout"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:drawableStart="@drawable/baseline_logout_24"
+            android:drawablePadding="10dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:gravity="center_vertical"
+            android:onClick="logout"
+            android:text=" Logout"
+            android:paddingStart="10dp"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Changepassword" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="167dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="8dp"
+            android:onClick="playstore"
+            android:layout_marginEnd="10dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/otherapps"
+            app:layout_constraintTop_toBottomOf="@+id/verifyaccount"
+            app:srcCompat="@drawable/da_dash" />
+
+        <TextView
+            android:id="@+id/otherapps"
+            android:layout_width="232dp"
+            android:layout_height="80dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginBottom="1dp"
+            android:paddingStart="15dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:gravity="center_vertical"
+            android:onClick="playstore"
+            android:text=" Other Apps by"
+            android:textColor="@color/black"
+            android:textSize="30dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/imageView4"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/verifyaccount" />
+
+        <TextView
+            android:id="@+id/verifyaccount"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:drawableStart="@drawable/baseline_verified_user_24"
+            android:drawablePadding="10dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:gravity="center_vertical"
+            android:onClick="verify"
+            android:text=" Verify Account"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:paddingStart="10dp"
+            android:textStyle="normal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/support" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

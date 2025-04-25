@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">BU Notes</string>
+    <string-array name="Course">
+        <item>Select Course</item>
+        <item>CSE</item>
+    </string-array>
+    <string-array name="CourseYear">
+        <item>Select Course Year</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+</resources>
