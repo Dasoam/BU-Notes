@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".subjects_year1_sem1">
+
+    <GridLayout
+    android:layout_width="0dp"
+    android:layout_height="0dp"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintBottom_toBottomOf="parent"
+    android:columnCount="2"
+    android:rowCount="4"
+    android:backgroundTint="@color/white"
+    android:background="@color/white"
+    android:layout_margin="15dp">
+    <androidx.cardview.widget.CardView
+        android:layout_height="0dp"
+        android:layout_width="0dp"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:elevation="10dp"
+        android:layout_margin="10dp"
+        android:backgroundTint="@color/white"
+        app:cardCornerRadius="10dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="4dp">
+
+            <ImageView
+                android:id="@+id/python"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:onClick="Python"
+                android:src="@drawable/pyhton">
+
+            </ImageView>
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_height="0dp"
+        android:layout_width="0dp"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:elevation="10dp"
+        android:layout_margin="10dp"
+        android:backgroundTint="@color/white"
+        app:cardCornerRadius="10dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="4dp">
+
+            <ImageView
+                android:id="@+id/ec"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:onClick="calculas"
+                android:src="@drawable/engcalculas">
+
+            </ImageView>
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_height="0dp"
+        android:layout_width="0dp"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:backgroundTint="@color/white"
+        android:elevation="10dp"
+        android:layout_margin="10dp"
+        app:cardCornerRadius="10dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="4dp">
+
+            <ImageView
+                android:id="@+id/fie"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:onClick="fondation"
+                android:src="@drawable/fep">
+
+            </ImageView>
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_height="0dp"
+        android:layout_width="0dp"
+        android:layout_columnWeight="1"
+        android:backgroundTint="@color/white"
+        android:layout_rowWeight="1"
+        android:elevation="10dp"
+        android:layout_margin="10dp"
+        app:cardCornerRadius="10dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="4dp">
+
+            <ImageView
+                android:id="@+id/em"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:onClick="electro"
+                android:src="@drawable/electromagnetics">
+
+            </ImageView>
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_height="0dp"
+        android:layout_width="0dp"
+        android:layout_columnWeight="1"
+        android:backgroundTint="@color/white"
+        android:layout_rowWeight="1"
+        android:elevation="10dp"
+        android:layout_margin="10dp"
+        app:cardCornerRadius="10dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="4dp">
+
+            <ImageView
+                android:id="@+id/ece"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:onClick="circuit"
+                android:src="@drawable/eceai">
+
+            </ImageView>
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_height="0dp"
+        android:layout_width="0dp"
+        android:layout_columnWeight="1"
+        android:backgroundTint="@color/white"
+        android:layout_rowWeight="1"
+        android:elevation="10dp"
+        android:layout_margin="10dp"
+        app:cardCornerRadius="10dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="4dp">
+
+            <ImageView
+                android:id="@+id/nal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:onClick="newl"
+                android:src="@drawable/nalf">
+
+            </ImageView>
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_height="0dp"
+        android:layout_width="0dp"
+        android:layout_columnWeight="1"
+        android:backgroundTint="@color/white"
+        android:layout_rowWeight="1"
+        android:elevation="10dp"
+        android:layout_margin="10dp"
+        app:cardCornerRadius="10dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="4dp">
+
+            <ImageView
+                android:id="@+id/eas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:onClick="environ"
+                android:src="@drawable/eas">
+
+            </ImageView>
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_height="0dp"
+        android:layout_width="0dp"
+        android:layout_columnWeight="1"
+        android:backgroundTint="@color/white"
+        android:layout_rowWeight="1"
+        android:elevation="10dp"
+        android:layout_margin="10dp"
+        app:cardCornerRadius="10dp"
+        android:visibility="invisible">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="4dp">
+
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+</GridLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

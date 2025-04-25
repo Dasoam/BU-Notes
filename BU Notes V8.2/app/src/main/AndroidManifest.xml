@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/appicon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/appicon_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.BUNotes"
+        tools:targetApi="31">
+        <activity
+            android:name=".year1.sem2.mechanics"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            />
+        <activity
+            android:name=".year1.sem2.linear_algebra"
+            android:screenOrientation="portrait"
+            android:exported="false" />
+        <activity
+            android:name=".year1.sem2.digital_design"
+            android:screenOrientation="portrait"
+            android:exported="false" />
+        <activity
+            android:name=".year1.sem2.discrete"
+            android:screenOrientation="portrait"
+            android:exported="false" />
+        <activity
+            android:name=".year1.sem2.java"
+            android:screenOrientation="portrait"
+            android:exported="false" />
+        <activity
+            android:name=".year2.sem2.operating_system"
+            android:screenOrientation="portrait"
+            android:exported="false" />
+        <activity
+            android:name=".year2.sem2.computer_network"
+            android:screenOrientation="portrait"
+            android:exported="false" />
+        <activity
+            android:name=".year2.sem2.daa"
+            android:screenOrientation="portrait"
+            android:exported="false" />
+        <activity
+            android:name=".ytplaylists.year1sem2.yt_digital"
+            android:screenOrientation="portrait"
+            android:exported="false" />
+        <activity
+            android:name=".ytplaylists.year2sem2.yt_cn"
+            android:screenOrientation="portrait"
+            android:exported="false" />
+        <activity
+            android:name=".ytplaylists.year2sem2.yt_os"
+            android:screenOrientation="portrait"
+            android:exported="false" />
+        <activity
+            android:name=".ytplaylists.year2sem2.yt_daa"
+            android:screenOrientation="portrait"
+            android:exported="false" />
+        <activity
+            android:name=".ytplaylists.year1sem2.yt_mechanics"
+            android:screenOrientation="portrait"
+            android:exported="false" />
+        <activity
+            android:name=".ytplaylists.year1sem2.yt_linear"
+            android:screenOrientation="portrait"
+            android:exported="false" />
+        <activity
+            android:name=".ytplaylists.year1sem2.yt_discrete"
+            android:screenOrientation="portrait"
+            android:exported="false" />
+        <activity
+            android:name=".ytplaylists.year1sem2.yt_java"
+            android:screenOrientation="portrait"
+
+            android:exported="false" />
+        <activity
+            android:name=".ytplaylists.year2sem2.ytvideos_year2_sem2"
+            android:screenOrientation="portrait"
+            android:exported="false" />
+        <activity
+            android:name=".ytplaylists.year1sem2.ytvideos_year1_sem2"
+            android:screenOrientation="portrait"
+            android:exported="false" />
+        <activity
+            android:name=".year2.sem1.software_engineering"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".books.books2y"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".year2.sem1.microprocessor"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".year2.sem1.ims_activity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".year2.sem1.probability_statistics"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".year2.sem1.cpp"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".subjects_year2_sem1"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".subjects_year2_sem2"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="@string/appID" />
+
+        <activity
+            android:name=".pyqb.sem1pyq2"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".pyqb.sem1pyq1"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".pyqb.pyqac"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".year1.sem1.ECEmod2"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".year1.sem1.ECEmod1"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".year1.sem1.Electromagneticsmod6"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".year1.sem1.Electromagneticsmod5"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".year1.sem1.Electromagneticsmod4"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".year1.sem1.Electromagneticsmod3"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".year1.sem1.Electromagneticsmod2"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".year1.sem1.Electromagneticsmod1"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".year1.sem1.Calculusmod3"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".year1.sem1.Calculusmod2"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".year1.sem1.Calculusmod1"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".year1.sem1.Calculus"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".books.ECEBooks"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".books.ElectromagneticsBooks"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".books.PythonBooks"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".books.Books"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".suport"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".changepassword"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".useraccount"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".year1.sem1.environmentactivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Serverpermission"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".year1.sem1.fondaactivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".year1.sem1.new_age_lif_skills"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".year1.sem1.calculasactivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".year1.sem1.emactivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".year1.sem1.eceactivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".year1.sem1.pythonactivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".subjects_year1_sem2"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".subjects_year1_sem1"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".register"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Dashboard"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".logoscrap"
+            android:exported="true"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".loginsingup"
+            android:exported="false"
+            android:screenOrientation="portrait">
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+    </application>
+
+</manifest>
