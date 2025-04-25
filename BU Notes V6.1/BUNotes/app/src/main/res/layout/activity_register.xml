@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".register">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="197dp"
+        android:layout_height="162dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="40dp"
+        app:layout_constraintBottom_toTopOf="@+id/cardView5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/appicon_round" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="40dp"
+        android:layout_marginTop="36dp"
+        android:elevation="20dp"
+        app:cardCornerRadius="20dp"
+        app:cardUseCompatPadding="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.333"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3">
+
+        <Button
+            android:id="@+id/SignUp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="320dp"
+            android:background="#FBFBFB"
+            android:backgroundTint="#000000"
+            android:onClick="login2"
+            android:text="Singup"
+            android:paddingVertical="10dp"
+            android:layout_marginBottom="10dp"
+            android:textColor="#020101" />
+
+        <EditText
+            android:id="@+id/passfield2"
+            android:layout_width="240dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="260dp"
+            android:drawableStart="@drawable/baseline_lock_24"
+            android:ems="10"
+            android:hint="Confirm Password"
+            android:inputType="textPassword"
+            app:passwordToggleEnabled="true" />
+
+        <EditText
+            android:id="@+id/passfield1"
+            android:layout_width="240dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="210dp"
+            android:layout_gravity="center_horizontal"
+            android:drawableStart="@drawable/baseline_lock_reset_24"
+            android:ems="10"
+            android:hint="Enter Password"
+            android:inputType="textPassword"
+            app:passwordToggleEnabled="true" />
+
+        <EditText
+            android:id="@+id/bemail"
+            android:layout_width="240dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="60dp"
+            android:layout_gravity="center_horizontal"
+            android:drawableStart="@drawable/baseline_alternate_email_24"
+            android:ems="10"
+            android:hint="College Email"
+            android:inputType="textEmailAddress" />
+
+
+        <EditText
+            android:id="@+id/Name"
+            android:layout_width="240dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center_horizontal"
+            android:drawableStart="@drawable/baseline_person_24"
+            android:ems="10"
+            android:hint="Name"
+            android:inputType="text" />
+
+        <Spinner
+            android:id="@+id/spinnercourse"
+            android:layout_width="240dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="110dp"
+            android:layout_gravity="center_horizontal"
+            android:entries="@array/Course"
+            android:gravity="center_horizontal" />
+
+        <Spinner
+            android:id="@+id/spinnercourseyear"
+            android:layout_width="240dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="160dp"
+            android:layout_gravity="center_horizontal"
+            android:entries="@array/CourseYear" />
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>
