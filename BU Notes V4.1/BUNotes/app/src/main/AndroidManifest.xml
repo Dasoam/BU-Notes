@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/appicon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/appicon_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.BUNotes"
+        tools:targetApi="31">
+        <activity
+            android:name=".Serverpermission"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".sengin"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".books2y"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".mipp"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".imsactivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ps"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".cpp"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".subjectsy2sem1"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="@string/appID" />
+
+        <activity
+            android:name=".sem1pyq2"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".sem1pyq1"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".pyqac"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ECEmod2"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ECEmod1"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Electromagneticsmod6"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Electromagneticsmod5"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Electromagneticsmod4"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Electromagneticsmod3"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Electromagneticsmod2"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Electromagneticsmod1"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Calculusmod3"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Calculusmod2"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Calculusmod1"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Calculus"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ECEBooks"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ElectromagneticsBooks"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".PythonBooks"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Books"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".suport"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".changepassword"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".useraccount"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".environmentactivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".fondaactivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".newactivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".calculasactivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".emactivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".eceactivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".pythonactivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".subjectssem2"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".subjects"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".register"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Dashboard"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".logoscrap"
+            android:exported="true"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".loginsingup"
+            android:exported="false"
+            android:screenOrientation="portrait">
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+    </application>
+
+</manifest>
